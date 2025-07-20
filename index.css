@@ -1,0 +1,64 @@
+#frame{
+    margin-left: 520px;
+    width: 200px;
+    background-color: pink;
+    border: 4px solid black;
+    border-radius: 10px;
+    
+}
+#display{
+    margin: 10px 25px ;
+    width: 70%;
+    height: 20px;
+    align-self: center;
+    border-radius: 6px;
+}
+.bc{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.b{
+    margin: 5px;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+#s,#m,#p,#d{
+    background-color: aqua;
+}
+
+#ok{
+    margin: 10px;
+    border: 2px dotted black;
+}
+#front{
+    background-color: aqua;
+    font-family: Londrina Shadow;
+    color: rgb(16, 16, 5);
+    border: 2px solid black;
+    border-radius: 9px;
+    text-align: center;
+}
+#front2{
+    font-family: Delius;
+}
+#front3{
+    font-family: Griffy;
+    text-align: center;
+    font-size: 40px;
+}
+
+#front4{
+    font-family: Delius;
+}
+#dev front0{
+    font-family: Delius;
+}
+#bt1{
+    border: 2px dotted purple;
+    border-radius: 3px;
+}
+
+

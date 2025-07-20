@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project-Calculator</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<script src="https://kit.fontawesome.com/286a203641.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Londrina+Shadow&display=swap" rel="stylesheet">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Delius&family=Londrina+Shadow&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Delius&family=Griffy&family=Londrina+Shadow&display=swap" rel="stylesheet">
+
+<body>
+
+   <div id="front" >
+<i class="fa-solid fa-ghost" style="font-size: 35px;"></i>
+     Hello buddy ! <br> 
+     Thnakyou for visiting to my website.
+    </div>
+
+    <br><br>
+
+    <div id="front0" 
+    onclick="alert('tomatoo \n')"
+    style="font-family: Delius;
+     text-align:center;">
+      Click only, if u are my tomattttaa. <br>
+    <button id="bt1">clickMe❤️</button>
+    </div>    <br>
+
+    <div id="front2">
+      <i class="fa-solid fa-user"  style="font-size: 40;"></i>
+      My name is ShyamalKumar. <br>
+      im B.Tech electronics student at GJUS&T. <br>
+      <b> I ve created this calculator</b>    by learning <i>HTML - CSS - JavaScript</i>
+    </div>
+
+
+    <br><br>
+
+    <div id="front3">
+      Just GO ! <br>
+      and use my calculator
+    </div>
+
+    <br><br><br>
+
+
+    <div id="frame">
+        <input type="text" id="display" readonly>
+
+        <div class="bc">
+
+
+        <button id="b00" class="b"
+        onclick="ans = '';
+           document.querySelector('#display').value= ans;
+          "
+        ">C</button>
+
+         <button id="b1" class="b"
+          onclick="ans = ans + '1' ;
+           document.querySelector('#display').value= ans;
+         ">1</button>
+
+          <button id="b2" class="b" 
+           onclick="ans = ans + '2' ;
+           document.querySelector('#display').value= ans;
+          ">2</button> 
+
+           <button id="s" class="b"
+            onclick="ans = ans + '+' ;
+           document.querySelector('#display').value= ans;
+          ">+</button>
+
+            <button id="b3" class="b"
+             onclick="ans = ans + '3' ;
+           document.querySelector('#display').value= ans;
+          ">3</button>
+
+             <button id="b4" class="b"
+              onclick="ans = ans + '4' ;
+           document.querySelector('#display').value= ans;
+          ">4</button> 
+
+              <button id="m" class="b" 
+               onclick="ans = ans + '-' ;
+           document.querySelector('#display').value= ans;
+          ">-</button>
+
+               <button id="b5" class="b" 
+                onclick="ans = ans + '5' ;
+           document.querySelector('#display').value= ans;
+          ">5</button>
+
+                <button id="b6" class="b" 
+                 onclick="ans = ans + '6' ;
+           document.querySelector('#display').value= ans;
+          ">6</button> 
+
+                 <button id="p" class="b" 
+                 onclick="ans = ans + '*' ;
+           document.querySelector('#display').value= ans;
+          ">*</button>
+
+                  <button id="b7" class="b" 
+                   onclick="ans = ans + '7' ;
+           document.querySelector('#display').value= ans;
+          ">7</button>
+
+                   <button id="b8" class="b"
+                    onclick="ans = ans + '8' ;
+           document.querySelector('#display').value= ans;
+          ">8</button> 
+
+                    <button id="d" class="b"
+                     onclick="ans = ans + '/' ;
+           document.querySelector('#display').value= ans;
+          ">/</button>
+
+
+                      <button id="b0" class="b"
+                        onclick="ans = ans + '9' ;
+           document.querySelector('#display').value= ans;
+          ">0</button>
+
+
+                      <button id="b9" class="b"
+                       onclick="ans = ans + '9' ;
+           document.querySelector('#display').value= ans;
+          ">9</button> 
+
+                       <button id="ok" class="b"
+                      onclick=" let final = eval(ans);
+                      ans = final;
+           document.querySelector('#display').value= ans;
+          ">=</button>
+
+                        <button id="dot" class="b"
+                         onclick="ans = ans + '.' ;
+           document.querySelector('#display').value= ans;
+          ">.</button>
+                        </div>
+    </div>
+
+<br><br><br><br>
+
+    <div id="front4">
+      this much only yar ! But i will come again with better projects.
+      <br><br>
+      <b>You can contact me from these platforms:</b>
+    </div>
+
+
+    <div id="front5">
+      <i class="fa-brands fa-linkedin"></i>
+      <a href="#">Linkedin Account</a>  <br>
+
+      <i class="fa-brands fa-facebook"></i>
+      <a href="#">Facebook Account</a>  <br>
+     
+      <i class="fa-brands fa-instagram"></i>
+      <a href="#">Instagram Account</a> <br>
+
+      <i class="fa-brands fa-square-twitter"></i>
+      <a href="#">Twitter Account</a>  <br><br>
+
+      or just <br>
+      <i>mail at-  <br>
+      </i><b>shyamal@gmail.com</b><br>
+      8595715589
+    </div>
+
+
+    <script>
+        let ans = '';
+        document.querySelector('#display').value= ans;
+    </script>
+</body>
+</html>
